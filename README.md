@@ -6,7 +6,7 @@ The unit relationships can be exported in several formats - XML, Gephi CSV and G
 # History
 The code was originally hacked together in order to refactor the pretty significant code base of our Easy-IP Network Management product. When the Delphi Developer Group on Google+ (https://plus.google.com/communities/103113685381486591754) started I thought it might be nice to give something back. I released DUDS as freeware and it seemed to go down pretty well.
 
-Over the years I have many requests to open source the code. Unfortunately, it had a lot of dependencies on the main Easy-IP codebase so it was not a simple task. I've now managed to find some time to refactor the code and tidy things up a little in order to release the code. It's still not great and a bit hacky, but it works and I don't have time to make any more improvements. It would be great if somebody else wants to take the batton and improve DUDS in the future.
+Over the years I have many requests to open source the code. Unfortunately, it had a lot of dependencies on the main Easy-IP codebase so it was not a simple task. I finally managed to find some time to refactor the code and tidy things up a little in order to release the code. It's still not great and a bit hacky, but it works and I don't have time to make any more improvements. It would be great if somebody else wants to take the batton and improve DUDS in the future.
 
 Cheers, 
 Paul.
