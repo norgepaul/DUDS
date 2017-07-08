@@ -1,0 +1,32 @@
+MAINICON ICON "C:\\Program Files (x86)\\Embarcadero\\Studio\\19.0\\bin\\delphi_PROJECTICON.ico"
+/*
+Include manifest xml for XP/Vista
+*/
+1 24 "C:\\FDrive\\Projects\\GitHub\\DelphiUnitDependencyScanner\\Source\\Common\\Finalbuilder\\Manifests\\themes.xml"
+1 VERSIONINFO
+FILEVERSION 1,6,0,58
+PRODUCTVERSION 1,6,0,58
+FILEFLAGSMASK 0x3FL
+FILEFLAGS 0x00L
+FILEOS 0x40004L
+FILETYPE 0x1L
+FILESUBTYPE 0x00L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+         BLOCK "040904E4"
+         BEGIN
+              VALUE "CompanyName", "Easy-IP AS\0"
+              VALUE "FileDescription", "Easy-IP\0"
+              VALUE "LegalCopyright", "Copyright © Easy-IP AS 2002-2017\0"
+              VALUE "ProductName", "UnitDependencyScanner\0"
+              VALUE "CompileDate", "8 July 2017 15:31\0"
+              VALUE "FileVersion", "1.6.0.58\0"
+              VALUE "ProductVersion", "1.6.0.58\0"
+         END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+         VALUE "Translation", 0x0409, 1252
+    END
+END

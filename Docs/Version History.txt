@@ -1,0 +1,35 @@
+Easy-IP Delphi Unit Dependency Scanner
+--------------------------------------
+
+v2.0
+Licence: Released as open source software - https://github.com/norgepaul/DelphiUnitDependencyScanner
+
+v1.6
+Fixed: Relative filenames were not parsed correctly in dpr files.
+
+v1.5
+Fixed: Load last project/Run scan on load settings not saved.
+Fixed: Some units not found in path if they were followed directly by a line feed/CR.
+Added: Export to GraphML.
+
+v1.4  
+Fixed: Open and Save dialog titles
+Fixed: Save dialog didn't prompt on file overwrite.
+Fixed: Small punctuation error.
+Fixed: Scan terminated if it encountered an error.
+Fixed: List search didn't display results if search term contained uppercase characters.
+Fixed: Recursively adding paths updated the UI each time a path was found.
+Added: Export to XML
+Added: Export to Gephi CSV
+
+V1.3
+Update: Added differentiation between circular and semi circular unit references.
+Update: Added "Show file in Windows Explorer" to context menus.
+
+V1.2
+Fixed: Installer would not close if you automatically ran the application.
+
+V1.1
+Fixed: The parser missed the end of the uses clause if the final ';' was directly preceded by an comment.
+Fixed: Unable to delete search paths.
+Fixed: Recursive search directories not added if the root directory is already there.
