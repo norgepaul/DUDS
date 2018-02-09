@@ -3,6 +3,10 @@ The Delphi Unit Dependency Scanner (or DUDS as it has become known) parses a Del
 
 The unit relationships can be exported in several formats - XML, Gephi CSV and GraphML.
 
+# Download
+
+If you don't want to build your own version you can download a DUDS installer [here]( https://www.dropbox.com/s/h4odxes42w0bbo1/UnitDependencyScannerSetup.exe?dl=0).
+
 # History
 The code was originally hacked together in order to refactor the pretty significant code base of our Easy-IP Network Management product. When the Delphi Developer Group on Google+ (https://plus.google.com/communities/103113685381486591754) started I thought it might be nice to give something back. I released DUDS as freeware and it seemed to go down pretty well.
 
