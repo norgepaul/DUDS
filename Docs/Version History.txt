@@ -2,7 +2,7 @@ Easy-IP Delphi Unit Dependency Scanner
 --------------------------------------
 
 v2.0
-Licence: Released as open source software - https://github.com/norgepaul/DelphiUnitDependencyScanner
+Licence: Released as open source software - https://github.com/norgepaul/DUDS
 
 v1.6
 Fixed: Relative filenames were not parsed correctly in dpr files.
