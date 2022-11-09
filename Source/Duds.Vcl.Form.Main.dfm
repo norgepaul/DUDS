@@ -915,7 +915,6 @@ object frmMain: TfrmMain
                     Highlighter = SynPasSyn1
                     ReadOnly = True
                     OnChange = memParentFileChange
-                    FontSmoothing = fsmNone
                     ExplicitHeight = 371
                   end
                 end
@@ -947,7 +946,6 @@ object frmMain: TfrmMain
                     Highlighter = SynPasSyn1
                     ReadOnly = True
                     OnChange = memSelectedFileChange
-                    FontSmoothing = fsmNone
                     ExplicitHeight = 371
                   end
                 end
@@ -1296,7 +1294,6 @@ object frmMain: TfrmMain
                     Highlighter = SynPasSyn1
                     ReadOnly = True
                     OnChange = memListFileChange
-                    FontSmoothing = fsmNone
                     ExplicitHeight = 379
                   end
                 end
@@ -1386,9 +1383,6 @@ object frmMain: TfrmMain
     end
   end
   object SynPasSyn1: TSynPasSyn
-    Options.AutoDetectEnabled = False
-    Options.AutoDetectLineLimit = 0
-    Options.Visible = False
     CommentAttri.Foreground = clGreen
     DirectiveAttri.Foreground = clTeal
     KeyAttri.Foreground = clNavy

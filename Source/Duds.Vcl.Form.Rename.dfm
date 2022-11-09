@@ -3,17 +3,15 @@ object frmRenameUnit: TfrmRenameUnit
   Top = 0
   BorderStyle = bsDialog
   Caption = 'Rename Unit'
-  ClientHeight = 139
-  ClientWidth = 450
+  ClientHeight = 156
+  ClientWidth = 456
   Color = clBtnFace
   Font.Charset = ANSI_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Segoe UI'
   Font.Style = []
-  OldCreateOrder = False
   Position = poScreenCenter
-  PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
     Left = 8
