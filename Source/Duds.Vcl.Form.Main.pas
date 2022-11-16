@@ -58,7 +58,7 @@ uses
 
   Duds.Vcl.HourGlass,
   Duds.Vcl.Utils,
-  Duds.Vcl.VirtualTreeview;
+  Duds.Vcl.VirtualTreeview, SynEditCodeFolding;
 
 type
   TfrmMain = class(TForm)
