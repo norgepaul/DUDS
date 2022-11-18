@@ -3,18 +3,16 @@ object frmSearchAndReplace: TfrmSearchAndReplace
   Top = 0
   BorderStyle = bsDialog
   Caption = 'Search and Replace Unit Names'
-  ClientHeight = 222
-  ClientWidth = 450
+  ClientHeight = 239
+  ClientWidth = 456
   Color = clBtnFace
   Font.Charset = ANSI_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
   Font.Name = 'Segoe UI'
   Font.Style = []
-  OldCreateOrder = False
   Position = poScreenCenter
   OnShow = FormShow
-  PixelsPerInch = 96
   TextHeight = 13
   object Label1: TLabel
     Left = 8
@@ -33,7 +31,7 @@ object frmSearchAndReplace: TfrmSearchAndReplace
   object Label3: TLabel
     Left = 8
     Top = 87
-    Width = 22
+    Width = 23
     Height = 13
     Caption = 'Test:'
   end

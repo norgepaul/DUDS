@@ -58,7 +58,7 @@ uses
 
   Duds.Vcl.HourGlass,
   Duds.Vcl.Utils,
-  Duds.Vcl.VirtualTreeview;
+  Duds.Vcl.VirtualTreeview, SynEditCodeFolding;
 
 type
   TfrmMain = class(TForm)
@@ -1198,7 +1198,8 @@ begin
       Sender.SortDirection := sdAscending;
     end;
 
-    Sender.Treeview.Sort(nil, Sender.SortColumn, Sender.SortDirection);
+    Assert(Sender.Treeview.InheritsFrom(TVirtualStringTree));
+    TVirtualStringTree(Sender.Treeview).Sort(nil, Sender.SortColumn, Sender.SortDirection);
 
     Sender.Treeview.Invalidate;
   finally
@@ -1547,7 +1548,7 @@ begin
   vtUsesUnits.Clear;
   vtStats.Clear;
 
-  vtUnits.Header.Columns[1].Options := vtUnits.Header.Columns[1].Options - [coVisible];
+  vtUnits.Header.Columns[1].Options := vtUnits.Header.Columns[1].Options - [TVTColumnOption.coVisible];
 
   FDelphiFileList.Clear;
   FDelphiFiles.Clear;
@@ -1687,7 +1688,7 @@ begin
   end;
 
   if Result then
-    vtUnits.Header.Columns[1].Options := vtUnits.Header.Columns[1].Options + [coVisible];
+    vtUnits.Header.Columns[1].Options := vtUnits.Header.Columns[1].Options + [TVTColumnOption.coVisible];
 end;
 
 procedure TfrmMain.RenameDelphiFile(const SearchString, ReplaceString: String; UpdateUsesClasues, PromptBeforeUpdate, DummyRun, RenameHistoryFiles, ExactMatch: Boolean);
